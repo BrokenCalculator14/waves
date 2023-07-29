@@ -13,6 +13,9 @@ int main()
     Color bgColor = (Color){0, 0, 0, 255};
     float hue = 0;
     const float hueSpeed = 0.5f;
+    Image windowIcon = LoadImage("res/window_icon.png");
+
+    SetWindowIcon(windowIcon);
 
     while (!WindowShouldClose())
     {
